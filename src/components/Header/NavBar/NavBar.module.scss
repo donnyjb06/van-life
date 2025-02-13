@@ -1,0 +1,33 @@
+.navBar {
+    display: flex;
+    align-items: center;
+
+    .navBar__list {
+        display: flex;
+        gap: 13px;
+        list-style: none;
+
+        .navBar__listItem {
+
+          .navBar__link {
+            text-decoration: none;
+            color: #4D4D4D;
+            transition: color 0.3s ease;
+            font-weight: 600;
+            font-size: 1.6rem;
+          }
+
+          .navBar__link:hover,
+          .navBar__link--active {
+            color: #161616;
+          }
+
+          .navBar__link_active {
+            color: #161616;
+            text-decoration: underline;
+          }
+        }
+    }
+}
+
+

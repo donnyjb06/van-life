@@ -1,10 +1,10 @@
-import Header from "@components/Header/Header";
-import NavBarComponent from "@components/NavBar/index";
+import Header from "../../components/Header/Header";
+import NavBarComponent from "../../components/NavBar/index";
 import logo from "../../assets/vanlife-logo.svg";
 import aboutImage from "../../assets/about-banner.jpg";
-import Footer from "@components/Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 import "./About.scss";
-import Card from "@components/Card/Card";
+import Card from "../../components/Card/Card";
 
 const About = () => {
 	return (

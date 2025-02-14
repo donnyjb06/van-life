@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HeroSection.module.scss";
-import Button from "@components/Button/Button";
+import Button from "../Button/Button";
 
 interface HeroSectionProps {
   mainTitle: string;

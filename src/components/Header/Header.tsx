@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Header.module.scss";
 import { FC } from "react";
 
@@ -10,7 +11,9 @@ interface HeaderProps {
 const Header: FC<HeaderProps> = ({ children, logo }) => {
   return (
     <header className={styles.header}>
-      <img src={logo} alt="VanLife logo" className={styles.header__logo} />
+      <Link to="/">
+        <img src={logo} alt="VanLife logo" className={styles.header__logo} />
+      </Link>
       {children}
     </header>
 

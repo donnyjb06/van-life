@@ -1,0 +1,25 @@
+.button {
+	font-size: 1.8rem;
+	padding: 8px 26px;
+	background-color: #ffead0;
+	border-radius: 5px;
+	transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+	color: #4d4d4d;
+	cursor: pointer;
+
+	&--simple:hover,
+	&--simple:active {
+		background-color: #e17654;
+		color: #ffead0;
+	}
+
+	&--luxury:hover,
+	&--luxury:active {
+		background-color: #161616;
+	}
+
+	&--rugged:hover,
+	&--rugged:active {
+		background-color: #115e59;
+	}
+}

@@ -1,5 +1,5 @@
-import Header from "@components/Header/Header";
-import NavBarComponent from "@components/NavBar/index";
+import Header from "../components/Header/Header";
+import NavBarComponent from "../components/NavBar/index";
 import logo from "../assets/vanlife-logo.svg";
 import HeroSection from "../components/HeroSection/HeroSection";
 import Footer from "../components/Footer/Footer";

@@ -15,7 +15,7 @@ const Card: FC<CardProps> = ({ topText, bottomText, btnClass, btnText, btnOnClic
     <div className={styles.card}>
       <p className={styles.card__top}>{topText}</p>
       <p className={styles.card__bottom}>{bottomText}</p>
-      <Button className={styles.card__button} onClick={btnOnClick}>{btnText}</Button>
+      <Button className={`${styles.card__button} ${btnClass}`} onClick={btnOnClick}>{btnText}</Button>
     </div>
   )
 }

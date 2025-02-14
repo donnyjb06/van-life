@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 3.2rem 4.7rem;
+  border-radius: 5px;
+  background-color: #FFCC8D;
+  width: 100%;
+
+  &__top,
+  &__bottom {
+    font-size: clamp(1.6rem, 2.4vw, 2.4rem);
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  
+  .card__button {
+    background-color: #161616;
+    color: #FFF;
+    margin-top: 2.5rem;
+  }
+}

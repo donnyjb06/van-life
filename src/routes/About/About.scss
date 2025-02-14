@@ -1,0 +1,34 @@
+.main {
+  margin-block: 53px 48px;
+  padding-inline: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  color: #161616;
+
+  .main__content {
+    display: flex;
+    flex-direction: column;
+
+    .main__title {
+      font-size: 3.2rem;
+      font-weight: 700;
+      line-height: 1.1875;
+      margin-block-end: 3.1rem;
+    }
+
+    .main__mission {
+      margin-block-end: 2.6rem;
+    }
+
+    .main__mission,
+    .main__text {
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1.375;
+    }
+  }
+}
+
+

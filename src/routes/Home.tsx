@@ -2,6 +2,7 @@ import Header from "@components/Header/Header";
 import NavBarComponent from "@components/NavBar/index";
 import logo from "../assets/vanlife-logo.svg";
 import HeroSection from "@components/HeroSection/HeroSection";
+import Footer from "@components/Footer/Footer";
 
 const Home = () => {
 	return (
@@ -17,7 +18,9 @@ const Home = () => {
 				subTitle="Add adventure to your life by joining the #vanlife movement. Rent the perfect van to make your perfect road trip."
 				ctaText="Find your van"
 			/>
+			<Footer />
 		</>
+
 	);
 };
 
